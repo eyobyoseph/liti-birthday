@@ -1,0 +1,142 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  text-align: center;
+  background-color: #a2d2ff;
+  background: linear-gradient(#a2d2ff, #EFB0C9);
+  color: #ffffff;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}
+
+h1 {
+  text-shadow: 0 0 1px black;
+}
+
+#bday-age {
+ background-color: #EFB0C9;
+ text-shadow: 0 0 1px black;
+ padding: 5px 10px;
+ border-radius: 5px;
+ margin: 5px 0 10px 0;
+}
+
+#bday-year {
+  background-color: #EFB0C9;
+  text-shadow: 0 0 1px black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+
+}
+
+.gift-pic {
+  width: 400px;
+  height: 400px;
+  border: 6px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  background-image: url("img/82083.jpeg");
+  background-size: cover;
+}
+
+.gift-pic:hover {
+  background-image: url("img/DepJm.gif");
+  /* background-size: contain; */
+}
+
+#hot-gif {
+  cursor: pointer;
+  border: 6px solid red;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  background-image: url("img/82083.jpeg");
+  background-size: cover;
+}
+
+
+#hot-gif:hover {
+  background-image: url("img/ariana-grande-hot-shorts.gif");
+}
+
+#genious-gif {
+  border: 6px solid red;
+  width: 400px; 
+  height: 400px;
+  display: inline-block;
+  background-image: url("img/82083.jpeg");
+  background-size: cover;
+  cursor: pointer;
+ }
+
+ #genious-gif:hover {
+  background-image: url("img/genius-think.gif");
+ }
+
+ #badass-gif {
+  border: 6px solid red;
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  background-image: url("img/82083.jpeg");
+  background-size: cover;
+  display: inline-block;
+ }
+
+ #badass-gif:hover {
+  background-image: url("img/teresa-palmer.gif");
+ }
+
+ #cheers-gif {
+  border: 6px solid red;
+  height: 200px;
+  width: 400px;
+  background-image: url("img/82083.jpeg");
+  background-size: cover;
+  display: inline-block;
+  cursor: pointer;
+ }
+
+ #cheers-gif:hover {
+  background-image: url("img/487ba55465e8cf5ff78ea5bf8cf06e4a.gif");
+ }
+
+ .birthday-site {
+  font-family: ;
+  font-style: italic;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+ }
+
+ a {
+  color: white;
+ }
